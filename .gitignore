@@ -9,6 +9,11 @@
 # Unignore all dirs
 !*/
 
+### Trash folders ###
+
+# Creating selected trash folders
+*/ignore/*
+
 ### Make ###
 
 # Unignore all makefiles
