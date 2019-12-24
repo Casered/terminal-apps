@@ -1,4 +1,4 @@
-/**	
+/**
 *	A simple C program checking the actual size of data types
 *	assigned by the compiler for the given system and hardware.
 *
@@ -7,7 +7,8 @@
 
 #include <stdio.h>		//	printf
 #include <limits.h>		//	CHAR_BIT
-#include <stdlib.h>		//	wchar_t, bool
+#include <stdlib.h>		//	wchar_t
+#include <stdbool.h>	//	bool
 
 //	creating a macro to avoid copy-pasting stuff all over the place
 #define PRINT_SIZE(TYPE) \
@@ -47,9 +48,9 @@ int main()
 	PRINT_SIZE(double);
 	PRINT_SIZE(long double);
 	
-//	puts("------------------------------------------------");
+	puts("------------------------------------------------");
 	
-//	PRINT_SIZE(bool);
+	PRINT_SIZE(bool);
 //	PRINT_SIZE(void);
 	
 	return 0;
