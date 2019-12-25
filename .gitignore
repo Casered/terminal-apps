@@ -12,8 +12,8 @@
 ### Trash folders ###
 
 # Creating selected trash folders
-*/ignore/*
-*/ignore
+*/ignore*
+*/trash*
 
 ### Make ###
 
