@@ -1,0 +1,21 @@
+Type:                      Bytes:          Bits:
+ char                        1 B            8 b
+ wchar_t                     4 B           32 b
+------------------------------------------------
+ signed char                 1 B            8 b
+ short                       2 B           16 b
+ int                         4 B           32 b
+ long                        8 B           64 b
+ long long                   8 B           64 b
+------------------------------------------------
+ unsigned char               1 B            8 b
+ unsigned short              2 B           16 b
+ unsigned int                4 B           32 b
+ unsigned long               8 B           64 b
+ unsigned long long          8 B           64 b
+------------------------------------------------
+ float                       4 B           32 b
+ double                      8 B           64 b
+ long double                16 B          128 b
+------------------------------------------------
+ bool                        1 B            8 b
